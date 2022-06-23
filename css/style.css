@@ -960,7 +960,8 @@ figure.card figcaption .info h3 {
 
 /*стили для модалки */
 .modal {
-  display: ; }
+  display:  inline;
+}
 
 .page__modal {
   display: none;
