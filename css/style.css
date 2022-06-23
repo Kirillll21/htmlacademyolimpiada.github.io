@@ -961,8 +961,7 @@ figure.card figcaption .info h3 {
 /*стили для модалки */
 .modal {
   display:  flex;
-  position: relative;
-}
+   }
 
 .page__modal {
   display: none;
