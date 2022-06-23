@@ -174,6 +174,7 @@ const button = document.getElementById("sign-up");
 function elements() {
   const form = document.querySelector('.modal');
   form.classList.remove('page__modal');
+  form.classList.add('modal--open');
 };
 button.addEventListener("click", elements);
 
@@ -181,5 +182,6 @@ const buttonClose = document.getElementById("close");
 const elementsClose = function() {
   const closeForm = document.querySelector('.modal');
   closeForm.classList.add('page__modal');
+  closeForm.classList.remove('modal--open');
 };
 buttonClose.addEventListener("click", elementsClose); 
