@@ -1296,13 +1296,13 @@ figure.card figcaption .info h3 {
 
 
 .rotate-img {
-  border-radius: 100%;
+  b
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
 .rotate-img:hover {
-  -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
-          transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+  -webkit-transform: rotate(360deg); 
+          transform: rotate(360deg); 
 }
      
 
